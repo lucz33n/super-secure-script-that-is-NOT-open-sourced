@@ -1,0 +1,8 @@
+game.Players.PlayerAdded:Connect(function(plr)
+    plr.CharacterAdded:Connect(function(char)
+       local humanoid = char:WaitForChild("Humanoid")
+       humanoid.WalkSpeed = 25
+    end
+end)
+
+--super secret code pls dont leak it it is obfuscated very well like 30 times ^
